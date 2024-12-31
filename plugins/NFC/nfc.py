@@ -6,7 +6,7 @@
 from core.plugin import BasePwnhyvePlugin
 from core.utils import config
 
-class NFC(BasePwnhyvePlugin):
+class PWN_Nfc(BasePwnhyvePlugin):
 
     def read(tpil):
         a = tpil.gui.screenConsole(tpil)

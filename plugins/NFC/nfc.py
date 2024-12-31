@@ -10,7 +10,7 @@ class PWN_Nfc(BasePwnhyvePlugin):
 
     def read(tpil):
         a = tpil.gui.screenConsole(tpil)
-        a.text = (scText("Reading"))
+        a.addText("reading")
         tpil.waitForKey()
         a.exit() 
         pass
